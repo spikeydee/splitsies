@@ -17,4 +17,4 @@ A 34-key ortholinear split keyboard with a multi-layered combo switching keymap.
 
 ## Firmware
 
-You can find the firmware for the splitsies in my QMK fork dev branch [`here`](https://github.com/spikeydee/qmk_firmware/tree/spikeydee_dev/keyboards/splitsies/).
+You can find the firmware for the splitsies in my QMK fork dev branch [here](https://github.com/spikeydee/qmk_firmware/tree/spikeydee_dev/keyboards/splitsies/).
