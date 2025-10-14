@@ -1,5 +1,5 @@
 # splitsies
-A 34-key ortholinear split keyboard with a multi-layered combo switching keymap. Inspired by @pierrechevalier83's ferris, @makenova's micro-redox, and @manna-harbor's miryoku layout. With an ortholinear, homerow-centric layout approach, and personally the use of the workman layout, my splitsies keyboard hopes to achieve a typing workflow with minimum diagonal and horizontal movements of the fingers that hopefully will become more intuitive over time. 
+splitsies is a 34-key ortholinear split keyboard with a multi-layered combo switching keymap. Inspired by @pierrechevalier83's ferris, @makenova's micro-redox, and @manna-harbor's miryoku layout. With an ortholinear, homerow-centric layout approach, and personally the use of the workman layout, my splitsies keyboard hopes to achieve a typing workflow with minimum diagonal and horizontal movements of the fingers that hopefully will become more intuitive over time. 
 
 ## Overall Features
 
