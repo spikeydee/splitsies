@@ -10,7 +10,7 @@ splitsies is a 34-key ortholinear split keyboard with a multi-layered combo swit
 ## Required Parts
 
 - 2x Pro Micro microcontroller / anything else with the same footprint
- - It is possible to use a nice!nano as well to make it wireless and rechargeable
+  - It is possible to use a nice!nano as well to make it wireless and rechargeable
 - 2x TRRS jacks
 - 1x TRRS cable
 - 2x Reset switch (optional)
