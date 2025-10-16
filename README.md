@@ -28,7 +28,7 @@ Using mostly @manna-harbor's [miryoku layout](https://github.com/manna-harbour/m
 - You can also see the my modified miryoku keyboard layout in my userspace [here](https://github.com/spikeydee/qmk_firmware/tree/spikeydee_dev/users/spikeydee).
 
 ## Version Differences
-I tried my best to prototype each version, following @ruiqimao's [keyboard pcb making guide](https://github.com/ruiqimao/keyboard-pcb-guide). So luckily for most of my iterationd, I did not have to rework the traces and footprints at all on KiCad after my first go with ordering them to be made through JLCPCB back then. I'll note albeit the few tweaks I made on each version.
+I tried my best to prototype each version, following @ruiqimao's [keyboard pcb making guide](https://github.com/ruiqimao/keyboard-pcb-guide). So luckily for most of my iterations, I did not have to rework the traces and footprints at all on KiCad after my first go with ordering them to be made through JLCPCB back then. I'll note albeit the few tweaks I made on each version.
 
 V1 and V2's PCB and case design are good to go (V2 is slightly more compact–therefore is my preferred version) whearas V3 still needs a bit more testing (I'll explain further down below).
 
@@ -50,13 +50,7 @@ Having a diodeless keyboard made it so that NKRO was a non-issue as well during 
 # V2
 (v2 pcb image)
 
-*double check & update v2 description as well*
-
-The V2 was a much simpler iteration as I gave myself wiggle room of a few milimeters on the footprint of the PCB on the V1, so I just made everything a bit tighter on the V2. Shaved a few milimeters off the vertical size of the PCB and moved the placement slightly on of the MCU and TRRS jacks.
-
-(v2 case image)
-
-Ditto on the case design, just made it vertically shorter and made sure that the gaps for the microusb port and TRRS jack still aligns.
+The V2 was a much simpler iteration as I gave myself wiggle room of a few milimeters on the footprint of the PCB on the V1, so I just made everything a bit tighter on the V2. Shaved a few milimeters off the vertical size of the PCB and moved the placement slightly on of the MCU and TRRS jacks. The case design stayed pretty much the same as well, I just made it vertically shorter and made sure that the gaps for the microusb port and TRRS jack still aligns.
 
 # V3
 (v3 pcb image)
@@ -66,9 +60,9 @@ For the V3, I wanted to try making a wireless bluetooth version of the splitsies
 (v3 prototype pcb indonesia image)
 
 As you can see I was able to get the prototype made, but with some glaring issues: 
--I was in Indonesia at the time and wasn't able to order the PCB through JLCPCB like I usually do, so I looked around for local small manufacturers, which I found, but most of them required me to either convert the kicad files to eagle or if I recall correctly they were able to work directly with the .gerber files. All was going well but unlike the online printing companies where they know that when there's silkscreen on top of certain pads or components, the local place just straight up put the silkscreen on ALL THE PADS ON THE PCB?!! So I had to scratch a lot of it off to get even a bit of solder to stick to the pads, and by the time I finished soldering the MCU and all the diodes (I had to jump a few traces too since I decimated some in the process of silkscreen scratching), I was able to barely program ZMK to work with the keyboard and was too frustrated to even keep going...
+-I was in Indonesia at the time and wasn't able to order the PCB through JLCPCB like I usually do, so I looked around for local small manufacturers, which I found, but most of them required me to either convert the kicad files to eagle or if I recall correctly they were able to work directly with the .gerber files. I had the readjust the size of the traces and the gaps between them as well due to their machines being unable to print that closely. All was going well but unlike the online printing companies where they know that when there's silkscreen on top of certain pads or components, the local place just straight up put the silkscreen on ALL THE PADS ON THE PCB?!! So I had to scratch a lot of it off to get even a bit of solder to stick to the pads, and by the time I finished soldering the MCU and all the diodes (I had to jump a few traces too since I decimated some in the process of silkscreen scratching), I was able to barely program ZMK to work with the keyboard and was too frustrated to even keep going...
 
-I didn't get to updating the case yet for this design because I wasn't able to follow through with finishing the keyboard yet as mentioned above.
+I didn't get to updating the case yet for this design because I wasn't able to follow through with finishing the keyboard yet as mentioned above. I uploaded the KiCad files for the original V3 and not the one adjusted for the indonesian place's parameters.
 
 ## Additional Remarks + Future Plans
 
