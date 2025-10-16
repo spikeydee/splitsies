@@ -35,7 +35,7 @@ V1 and V2's PCB and case design are good to go (V2 is slightly more compact–th
 N.B.: I lost my slide-in case .stl files with the overhanging attached pro micro cover as well as the original with the separated pro micro cover so I need to approximately remake those files in the future.
 
 # V1
-![pcb_v1](splitsies_v1/dpcs/pcb_v1.png)
+![pcb_v1](splitsies_v1/docs/pcb_v1.png)
 
 I've used split keyboards with thumb buttons a handful of times before (e.g.: microdox, minidox, ferris) but even slightly before using those keyboards, I've been a fan of having an ortholinear layout so I decided I wanted to combine them both. Wanting symmetry, simplicity, and compactness in the design, I opted to make the design reversible, diodeless, and to achieve the smallest footprint possible, I mounted the trrs jack below the third column (and in testing surprisingly does not interfere with typing at all as long as the trrs cable head isn't bulky).
 
