@@ -30,7 +30,7 @@ Using mostly @manna-harbor's [miryoku layout](https://github.com/manna-harbour/m
 ## Version Differences
 I tried my best to prototype each version, following @ruiqimao's [keyboard pcb making guide](https://github.com/ruiqimao/keyboard-pcb-guide). So luckily for most of my iterations, I did not have to rework the traces and footprints at all on KiCad after my first go with ordering them to be made through JLCPCB back then. I'll note albeit the few tweaks I made on each version.
 
-V1 and V2's PCB and case design are good to go (V2 is slightly more compact–therefore is my preferred version) whearas V3 still needs a bit more testing (I'll explain further down below).
+V1 and V2's PCB and case design are good to go (V2 is slightly more compact–therefore is my preferred version) whearas V3 still needs a bit more testing (I'll explain further down below). The 3D printed case .stl fits both the V1 and V2.
 
 # V1
 (v1 pcb image)
@@ -41,8 +41,6 @@ I've used split keyboards with thumb buttons a handful of times before (e.g.: mi
 
 I designed the case to be a slide then press-fit case which has an over-hanging cover for the pro micro where you can take off the supports after printing. I designed the height of the case to be as tall as the keyswitch + keycap's low point when they are pressed down. If the case is still a bit loose then I usually fix that with a bit of hot glue :). 
 
-(pretty v1 image finished?)
-
 The V1 to me is more of a proof of concept that maybe I could bring all these concepts together into one coherent keyboard, and when I did, if I could get used to the layout and form-factor itself. To me it was a great success in proving all that as since 2021, I've exclusively used the splitsies as my main keyboard and have remembered and gotten used to it's layout & layers after the first few months of using it (although I was already used to the miryoku layout because I used it on other split keyboards before as well). Touch-typing was a non-issue as well because I didn't even have legends on my keycaps since lettered choc keycaps were expensive back then. 
 
 Having a diodeless keyboard made it so that NKRO was a non-issue as well during gaming. I reverted to a toggleable basic WASD layout with the modifier keys on the left since having to re-map everything and also having the modifier keys on the homerow was inconvenient and made most games be practically unplayable.
@@ -50,7 +48,7 @@ Having a diodeless keyboard made it so that NKRO was a non-issue as well during 
 # V2
 (v2 pcb image)
 
-The V2 was a much simpler iteration as I gave myself wiggle room of a few milimeters on the footprint of the PCB on the V1, so I just made everything a bit tighter on the V2. I moved the placement slightly on of the MCU and recessed TRRS jacks a bit more as well. The case design didn't really change because the gaps for the microusb port and TRRS jack still aligns with no fitment issues.
+The V2 was a much simpler iteration as I gave myself wiggle room of a few milimeters on the footprint of the PCB on the V1, so I just made everything a bit tighter on the V2. I moved the placement slightly on of the MCU and recessed TRRS jacks a bit more as well. The case design didn't really change because the gaps for the microusb port and TRRS jack still aligns with no fitment issues. Visually, the changes aren't that discernable but It gave me a bit more peace of mind that I could make the board footprint more compact.
 
 # V3
 (v3 pcb image)
@@ -60,7 +58,7 @@ For the V3, I wanted to try making a wireless bluetooth version of the splitsies
 (v3 prototype pcb indonesia image)
 
 As you can see I was able to get the prototype made, but with some glaring issues: 
--I was in Indonesia at the time and wasn't able to order the PCB through JLCPCB like I usually do, so I looked around for local small manufacturers, which I found, but most of them required me to either convert the kicad files to eagle or if I recall correctly they were able to work directly with the .gerber files. I had the readjust the size of the traces and the gaps between them as well due to their machines being unable to print that closely. All was going well but unlike the online printing companies where they know that when there's silkscreen on top of certain pads or components, the local place just straight up put the silkscreen on ALL THE PADS ON THE PCB?!! So I had to scratch a lot of it off to get even a bit of solder to stick to the pads, and by the time I finished soldering the MCU and all the diodes (I had to jump a few traces too since I decimated some in the process of silkscreen scratching), I was able to barely program ZMK to work with the keyboard and was too frustrated to even keep going...
+- I was in Indonesia at the time and wasn't able to order the PCB through JLCPCB like I usually do, so I looked around for local small manufacturers, which I found, but most of them required me to either convert the kicad files to eagle or if I recall correctly they were able to work directly with the .gerber files. I had the readjust the size of the traces and the gaps between them as well due to their machines being unable to print that closely. All was going well but unlike the online printing companies where they know that when there's silkscreen on top of certain pads or components, the local place just straight up put the silkscreen on ALL THE PADS ON THE PCB?!! So I had to scratch a lot of it off to get even a bit of solder to stick to the pads, and by the time I finished soldering the MCU and all the diodes (I had to jump a few traces too since I decimated some in the process of silkscreen scratching), I was able to barely program ZMK to work with the keyboard and was too frustrated to even keep going...
 
 I didn't get to updating the case yet for this design because I wasn't able to follow through with finishing the keyboard yet as mentioned above. I uploaded the KiCad files for the original V3 and not the one adjusted for the indonesian place's parameters.
 
