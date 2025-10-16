@@ -30,7 +30,9 @@ Using mostly @manna-harbor's [miryoku layout](https://github.com/manna-harbour/m
 ## Version Differences
 I tried my best to prototype each version, following @ruiqimao's [keyboard pcb making guide](https://github.com/ruiqimao/keyboard-pcb-guide). So luckily for most of my iterations, I did not have to rework the traces and footprints at all on KiCad after my first go with ordering them to be made through JLCPCB back then. I'll note albeit the few tweaks I made on each version.
 
-V1 and V2's PCB and case design are good to go (V2 is slightly more compact–therefore is my preferred version) whearas V3 still needs a bit more testing (I'll explain further down below). The 3D printed case .stl fits both the V1 and V2.
+V1 and V2's PCB and case design are good to go (V2 is slightly more compact–therefore is my preferred version) whearas V3 still needs a bit more testing (I'll explain further down below). The 3D printed slip-on case .stl fits both the V1 and V2. 
+
+N.B.: I lost my slide-in case .stl files with the overhanging attached pro micro cover as well as the original with the separated pro micro cover so I need to approximately remake those files in the future.
 
 # V1
 (v1 pcb image)
@@ -39,7 +41,7 @@ I've used split keyboards with thumb buttons a handful of times before (e.g.: mi
 
 (v1 case image)
 
-I designed the case to be a slide then press-fit case which has an over-hanging cover for the pro micro where you can take off the supports after printing. I designed the height of the case to be as tall as the keyswitch + keycap's low point when they are pressed down. If the case is still a bit loose then I usually fix that with a bit of hot glue :). 
+I designed the case to be a slide then press-fit case which has an over-hanging cover for the pro micro where you can take off the supports after printing. I designed the height of the case to be as tall as the keyswitch + keycap's low point when they are pressed down. If the case is still a bit loose then I usually fix that with a bit of hot glue (sorry that the image is actually from the version without the attached PM cover...).
 
 The V1 to me is more of a proof of concept that maybe I could bring all these concepts together into one coherent keyboard, and when I did, if I could get used to the layout and form-factor itself. To me it was a great success in proving all that as since 2021, I've exclusively used the splitsies as my main keyboard and have remembered and gotten used to it's layout & layers after the first few months of using it (although I was already used to the miryoku layout because I used it on other split keyboards before as well). Touch-typing was a non-issue as well because I didn't even have legends on my keycaps since lettered choc keycaps were expensive back then. 
 
@@ -63,7 +65,8 @@ As you can see I was able to get the prototype made, but with some glaring issue
 I didn't get to updating the case yet for this design because I wasn't able to follow through with finishing the keyboard yet as mentioned above. I uploaded the KiCad files for the original V3 and not the one adjusted for the indonesian place's parameters.
 
 ## Additional Remarks + Future Plans
+(v2 nice!nano next to v3)
 
 While we're on the subject of wireless: Later on I tried again but on the V2 using a nice!nano, but I wasn't able to get it working using ZMK, since at that time they didn't have that much documentation for custom diodeless keyboard support + I wasn't technically savvy enough to figure it out on my own :\ + wiring and soldering batteries scared the heck out of me too back then HAHA.
 
-I'm hoping I could get the V2 with the nice!nano and the V3 working some time in the future, and designing + printing a nice machined metal/aluminum case for it too.
+I'm hoping I could get the V2 with the nice!nano and the V3 working some time in the future, remaking my 3d printed old case design,and designing + printing a nice machined metal/aluminum case for it too.
