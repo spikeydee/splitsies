@@ -50,7 +50,7 @@ Having a diodeless keyboard made it so that NKRO was a non-issue as well during 
 # V2
 (v2 pcb image)
 
-The V2 was a much simpler iteration as I gave myself wiggle room of a few milimeters on the footprint of the PCB on the V1, so I just made everything a bit tighter on the V2. Shaved a few milimeters off the vertical size of the PCB and moved the placement slightly on of the MCU and TRRS jacks. The case design stayed pretty much the same as well, I just made it vertically shorter and made sure that the gaps for the microusb port and TRRS jack still aligns.
+The V2 was a much simpler iteration as I gave myself wiggle room of a few milimeters on the footprint of the PCB on the V1, so I just made everything a bit tighter on the V2. I moved the placement slightly on of the MCU and recessed TRRS jacks a bit more as well. The case design didn't really change because the gaps for the microusb port and TRRS jack still aligns with no fitment issues.
 
 # V3
 (v3 pcb image)
