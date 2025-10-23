@@ -30,7 +30,7 @@ Using mostly @manna-harbor's [miryoku layout](https://github.com/manna-harbour/m
 ## Version Differences
 I tried my best to prototype each version, following @ruiqimao's [keyboard pcb making guide](https://github.com/ruiqimao/keyboard-pcb-guide). So luckily for most of my iterations, I did not have to rework the traces and footprints at all on KiCad after my first go with ordering them to be made through JLCPCB back then. I'll note albeit the few tweaks I made on each version.
 
-V1 and V2's PCB and case design are good to go (V2 is slightly more compact–therefore is my preferred version) whearas V3 still needs a bit more testing (I'll explain further down below). The 3D printed slip-on case .stl fits both the V1 and V2. 
+V1 and V2's PCB and case design are good to go (V2 is slightly more compact–therefore is my preferred version) whereas V3 still needs a bit more testing (I'll explain further down below). The 3D printed slip-on case .stl fits both the V1 and V2. 
 
 N.B.: I lost my slide-in case .stl files with the overhanging attached pro micro cover as well as the original with the separated pro micro cover so I need to approximately remake those files in the future.
 
